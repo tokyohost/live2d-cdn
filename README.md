@@ -1,4 +1,4 @@
-# live2d-queryScore
+# live2d-cdn
 
 根据 live2d-widget 修改(糟蹋)后用于自己的一个成绩查询项目
 原项目地址：[https://github.com/stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget)
@@ -7,9 +7,9 @@
 
 对其live2d.min.js (没有找到未加密的版本) 修改了一下，使其可以加载cdn的图标等资源，提高换装/加载效率。
 
-配合修改过的  [live2d-api]()  可以使用免费的jsdelivr 完成cdn优化，让你的看板娘飞速加载！
+此项目配合修改过的  [live2d-api-cdn](https://github.com/tokyohost/live2d-api-cdn)  可以使用免费的jsdelivr 完成cdn优化，让你的看板娘飞速加载！
 
-注意:本项目与live2d-api-cdn 搭配使用，可完全cdn化，资源全部从免费的CDN中加载。
+注意:本项目与```live2d-api-cdn``` 搭配使用，可完全cdn化，资源全部从免费的CDN中加载。
 
 jsdelivr优化效果，基本秒加载。
 (不严谨测试。)   
@@ -19,8 +19,8 @@ jsdelivr优化效果，基本秒加载。
 
 首先你需要发布一个自己的版本(也可以使用我的) 
 
-1、fox 此项目，完成api 配置后 发布版本。   
-   >api配置请看下面的 #使用   
+1、fork 此项目，完成api 配置后 发布版本。   
+   >api配置请  [live2d-api-cdn](https://github.com/tokyohost/live2d-api-cdn) 
 
 2、测试 jsdelivr 链接。  
    >jsdelivr cdn 用法如下:   
@@ -77,5 +77,5 @@ var debug = true;
 ```
 正式环境建议关闭，不然console会很难看。。。
 ##配置live2d API
-请移步 live2d-api-cdn 。
+请移步 [live2d-api-cdn](https://github.com/tokyohost/live2d-api-cdn)  。
 
